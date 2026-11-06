@@ -1,0 +1,104 @@
+﻿```css
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6ecf2;
+    color: #333333;
+}
+
+.header, .footer {
+    background-color: #1a2a3a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.footer a {
+    color: #4da6ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .estudiantes {
+    margin-top: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0 0;
+}
+
+.footer li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.pricing-table {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.table-header, .table-row {
+    display: flex;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.table-header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.table-row {
+    background-color: #d0dbe5;
+}
+
+.col {
+    flex: 1;
+    text-align: center;
+}
+
+.col:first-child {
+    flex: 2;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .table-header, .table-row {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .col:first-child {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .footer li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+```
